@@ -10,7 +10,7 @@
 
 namespace LibraryManagement
 {
-    public partial class WebForm1
+    public partial class UserSignup
     {
     }
 }

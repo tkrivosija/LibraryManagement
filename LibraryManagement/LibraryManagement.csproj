@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminAuthorManagement.aspx" />
+    <Content Include="AdminBookInventory.aspx" />
+    <Content Include="AdminBookIssuing.aspx" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="AdminMemberManagement.aspx" />
+    <Content Include="AdminPublisherManagement.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
@@ -1742,10 +1748,54 @@
     <Content Include="imgs\search-online.png" />
     <Content Include="imgs\sign-up.png" />
     <Content Include="imgs\writer.png" />
+    <Content Include="UserLogin.aspx" />
+    <Content Include="UserProfile.aspx" />
+    <Content Include="UserSignup.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminAuthorManagement.aspx.cs">
+      <DependentUpon>AdminAuthorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAuthorManagement.aspx.designer.cs">
+      <DependentUpon>AdminAuthorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBookInventory.aspx.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminBookInventory.aspx.designer.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBookIssuing.aspx.cs">
+      <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminBookIssuing.aspx.designer.cs">
+      <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.designer.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPublisherManagement.aspx.cs">
+      <DependentUpon>AdminPublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPublisherManagement.aspx.designer.cs">
+      <DependentUpon>AdminPublisherManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Homepage.aspx.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1761,12 +1811,26 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSignup.aspx.cs">
+      <DependentUpon>UserSignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSignup.aspx.designer.cs">
+      <DependentUpon>UserSignup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
