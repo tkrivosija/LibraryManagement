@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="AdminLogin.aspx.cs" Inherits="LibraryManagement.AdminLogin" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="UserSignup.aspx.cs" Inherits="LibraryManagement.UserSignup" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -33,7 +33,7 @@
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label>Date of Birth</label>
-                                    <asp:TextBox  Cssclass="form-control" ID="TextBox3" runat="server" 
+                                    <asp:TextBox  Cssclass="form-control" ID="TextBox2" runat="server" 
                                         placeholder="Date of Birth" TextMode="Date"></asp:TextBox>
                             </div>
                          </div>
@@ -41,7 +41,7 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label>Contact Number</label>
-                                    <asp:TextBox  Cssclass="form-control" ID="TextBox2" runat="server" 
+                                    <asp:TextBox  Cssclass="form-control" ID="TextBox3" runat="server" 
                                         placeholder="Contact Number" TextMode="Number"></asp:TextBox>
                             </div>
                             <div class="col-md-6 mb-3">
@@ -75,7 +75,7 @@
                         <div class="row">
                             <div class="col mb-3">
                                 <label>Full Address</label>
-                                    <asp:TextBox  Cssclass="form-control" ID="TextBox8" runat="server" 
+                                    <asp:TextBox  Cssclass="form-control" ID="TextBox5" runat="server" 
                                         placeholder="Full Address" TextMode="MultiLine"></asp:TextBox>
                              </div>
                          </div>
@@ -91,7 +91,7 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label>User ID</label>
-                                    <asp:TextBox  Cssclass="form-control" ID="TextBox5" runat="server" 
+                                    <asp:TextBox  Cssclass="form-control" ID="TextBox8" runat="server" 
                                         placeholder="User ID"></asp:TextBox>
                             </div>
                             <div class="col-md-6 mb-3">
@@ -103,7 +103,7 @@
 
                         <div class="row">
                             <div class="col mb-3 d-grid gap-2">
-                                <asp:Button class="btn btn-success btn-lg" ID="Button1" runat="server" Text="Sign Up" />
+                                <asp:Button class="btn btn-success btn-lg" ID="Button1" runat="server" Text="Sign Up" OnClick="Button1_Click" />
                             </div>
                         </div>
                     </div>

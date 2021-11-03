@@ -9,7 +9,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <center><img width="150px" src="LibraryManagement/imgs/adminuser.png" /></center>
+                                <center><img width="150px" src="imgs/adminuser.png" /></center>
                             </div>
                         </div>
                         <div class="row">
@@ -35,7 +35,7 @@
                                 </div>
 
                                 <div class="mb-3 d-grid gap-2">
-                                    <asp:Button class="btn btn-success btn-lg" ID="Button1" runat="server" Text="Login" />
+                                    <asp:Button class="btn btn-success btn-lg" ID="Button2" runat="server" Text="Login" OnClick="Button2_Click" />
                                 </div>
                                   
                             </div>
