@@ -45,6 +45,7 @@ namespace LibraryManagement
                 {
                     Response.Write("<script>alert(' Invalid User ');</script>");
                 }
+                con.Close();
             }
             catch (Exception ex)
             {
